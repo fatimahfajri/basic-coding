@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table and Form</title>
+        <link rel="stylesheet" href="../style.css">
+        <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=DAY/d=0/rs=AN8SPfrCcgxoBri2FVMQptvuOBiOsolgBw/m=el_main_css">
+    </head>
+    <body id="tb-form">
+        <div class="container">
+            <div class="tables">
+                <div>
+                   <h2>対戦結果</h2> 
+                   <h2>第73回JABA九州大会</h2>
+                   <p>
+                        2021年5月9日(日) 9:00
+                        <br>
+                        試合会場：オーヴィジョンスタジアム下関
+                    </p>
+                </div>
+                <div class="first-table">
+                    <div> </div>
+                    <div> </div>
+                    <div> </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>チーム名</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>5</th>
+                                <th>6</th>
+                                <th>7</th>
+                                <th>8</th>
+                                <th>9</th>
+                                <th>計</th>  
+                            </tr>
+                            <tr>
+                                <th>パナソク</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>7</td> 
+                            </tr>
+                            <tr>
+                                <th>Honda熊本</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>  
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                </div>
+                <div class="second-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th rowspan="2">バッテリー</th>
+                                <th colspan="5" style="width: 40%;">Honda熊本</th>
+                                <th colspan="5" style="width: 40%;">パナソニック</th> 
+                            </tr>
+                            <tr>
+                              <td colspan="5">
+                                    <p>投手：島袋、福田、横川、内田、高山、中津</p>
+                                    <p>捕手：竹葉</p>
+                                </td>
+                                <td colspan="5">
+                                    <p>投手：榎本</p> 
+                                    <p>捕手：川上</p>
+                                </td> 
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="form">
+                <h2>お問い合わせ</h2>
+                <form>
+                    <div>
+                        <label for="nama">お名前 [必須]：</label>
+                        <input type="text" id="nama" name="nama">
+                        <br>
+                    </div>
+                    <div>
+                        <label for="mail">メールアドレス [必須]：</label>
+                        <input type="text" id="mail" name="mail">
+                        <br>
+                    </div>
+                    <div>
+                        <label for="nomor">電話番号[任意] : </label>
+                        <input type="text" id="nomor" name="nomor">
+                        <br>
+                    </div>
+                    <div>
+                        <label for="pilih">ご用件 [必須]：</label>
+                        <select id="pilih" name="pilih">
+                            <option value disabled selected hidden>選択してください</option>
+                            <option value="1">書籍についてのご質問(個人のお客様)</option>
+                            <option value="2">書籍についてのご質問(取次・書店様)</option>
+                            <option value="3">書籍についてのご質問(メディア関係者様)</option>
+                            <option value="4">アルバイト・パートに関するお問い合わせ</option>
+                            <option value="5">仕事のご依頼・お問い合わせ</option>
+                            <option value="6">外部スタッフのご希望(フリーの方、制作会社様)</option>
+                            <option value="7">その他のお問合せ</option>
+                        </select>
+                    </div>
+                    <div>
+                        <br>
+                        <label for="isi">お問い合わせ内容 [必須]</label>
+                        <textarea name="isi" rows="10" cols="40"></textarea>
+                    </div>
+                    <button type="submit">確認</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
